@@ -63,4 +63,4 @@ We sincerely thank the contribution of the following repos: [SiamGAT](https://gi
 
 ### Contact
 
-If you have any questions, please contact Haobo Zuo at [haobozuo@connect.hku.hk](haobozuo@connect.hku.hk) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
+If you have any questions, please contact Haobo Zuo at [haobozuo@connect.hku.hk](mailto:haobozuo@connect.hku.hk) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
