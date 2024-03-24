@@ -12,7 +12,7 @@
 
 ### 1. Preprocessing
 
-Before training, we need to preprocess the unlabelled training data to generate training pairs.
+Before training, we need to preprocess the training data to generate training pairs. Besides, the proposed NUT-LR can be obtained from the following link to test the performance of DaDiff.
 
 1. Download the nighttime train dataset [NAT2021-*train* set](https://vision4robotics.github.io/NAT2021/).
 
