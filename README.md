@@ -46,7 +46,7 @@ Before training, we need to preprocess the unlabelled training data to generate 
 
 ### 2. Train
 
-Take UDAT-CAR for instance.
+Take DaDiff-GAT for instance.
 
 1. Apart from above target domain dataset NAT2021, you need to download and prepare source domain datasets [VID](https://image-net.org/challenges/LSVRC/2017/) and [GOT-10K](http://got-10k.aitestunion.com/downloads).
 
