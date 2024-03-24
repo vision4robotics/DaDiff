@@ -6,9 +6,7 @@
 
 ## Overview
 
-**UDAT** is an unsupervised domain adaptation framework for visual object tracking. This repo contains its Python implementation.
-
-[Paper](https://arxiv.org/abs/2203.10541) | [NAT2021 benchmark](https://vision4robotics.github.io/NAT2021/)
+**DaDiff** is a Diffusion model-based domain adaptation framework for visual object tracking. This repo contains its Python implementation.
 
 ## Testing UDAT
 
