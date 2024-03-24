@@ -48,62 +48,45 @@ Before training, we need to preprocess the unlabelled training data to generate 
 
 Take DaDiff-GAT for instance.
 
-1. Apart from above target domain dataset NAT2021, you need to download and prepare source domain datasets [VID](https://image-net.org/challenges/LSVRC/2017/) and [GOT-10K](http://got-10k.aitestunion.com/downloads).
+1. Apart from the above target domain dataset NAT2021, you need to download and prepare source domain datasets [VID](https://image-net.org/challenges/LSVRC/2017/) and [GOT-10K](http://got-10k.aitestunion.com/downloads).
 
-2. Download the pre-trained daytime model ([SiamCAR](https://drive.google.com/drive/folders/11Jimzxj9QONOACJBKzMQ9La6GZhA73QD?usp=sharing)/[SiamBAN](https://drive.google.com/drive/folders/17Uz3dZFOtx-uU7J4t48_nAfPXvNsQAAq?usp=sharing)) and place it at `UDAT/tools/snapshot`.
+2. Download the pre-trained daytime model ([SiamGAT](https://drive.google.com/file/d/1LKU6DuOzmLGJr-LYm4yXciJwIizbV_Zf/view)/[SiamBAN](https://drive.google.com/drive/folders/17Uz3dZFOtx-uU7J4t48_nAfPXvNsQAAq?usp=sharing)) and place it at `DaDiff/SiamGAT/snapshot`.
 
 3. Start training
 
    ``` python
-   cd UDAT/CAR
+   cd DaDiff/SiamGAT
    export PYTHONPATH=$PWD
    python tools/train.py
    ```
 
 ### 3. Test
-Take UDAT-CAR for instance.
-1. For quick test, you can download our trained model for [UDAT-CAR](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) (or [UDAT-BAN](https://drive.google.com/file/d/1nKyzA0ohOmrvSvypM-0cCvGNo93ZvdLp/view?usp=sharing)) and place it at `UDAT/CAR/experiments/udatcar_r50_l234`.
+Take DaDiff-GAT for instance.
+1. For quick test, you can download our trained model for [UDAT-CAR](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) (or [UDAT-BAN](https://drive.google.com/file/d/1nKyzA0ohOmrvSvypM-0cCvGNo93ZvdLp/view?usp=sharing)) and place it at `DaDiff/SiamGAT/snapshot`.
 
 2. Start testing
 
     ```python
-    python tools/test.py --dataset NAT
+    python tools/test.py --dataset NUT-L
     ```
 
 ### 4. Eval
 
 1. Start evaluating
     ``` python
-    python tools/eval.py --dataset NAT
+    python tools/eval.py --dataset NUT-L
     ```
 
 ## Demo
 [![Demo video](https://res.cloudinary.com/marcomontalbano/image/upload/v1647705190/video_to_markdown/images/youtube---nB5XitC-Lk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-nB5XitC-Lk "Demo video")
 
-## Reference
-
-> @Inproceedings{Ye2022CVPR,
->
-> title={{Unsupervised Domain Adaptation for Nighttime Aerial Tracking}},
->
-> author={Ye, Junjie and Fu, Changhong and Zheng, Guangze and Paudel, Danda Pani and Chen, Guang},
->
-> booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
->
-> year={2022}, 
->
-> pages={1-10} 
->
-> }
-
-
 
 ### Acknowledgments
 
-We sincerely thank the contribution of following repos: [SiamCAR](https://github.com/ohhhyeahhh/SiamCAR), [SiamBAN](https://github.com/hqucv/siamban), [DCFNet](https://github.com/Roudgers/DCFNet), [DCE](https://github.com/Li-Chongyi/Zero-DCE), and [USOT](https://github.com/VISION-SJTU/USOT).
+We sincerely thank the contribution of the following repos: [SiamGAT](https://github.com/ohhhyeahhh/SiamCAR), [SiamBAN](https://github.com/hqucv/siamban), [UDAT](https://github.com/vision4robotics/UDAT).
 
 
 
 ### Contact
 
-If you have any questions, please contact Junjie Ye at [ye.jun.jie@tongji.edu.cn](mailto:ye.jun.jie@tongji.edu.cn) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
+If you have any questions, please contact Haobo Zuo at [haobozuo@connect.hku.hk](haobozuo@connect.hku.hk) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
