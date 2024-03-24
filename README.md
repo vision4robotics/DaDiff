@@ -14,35 +14,9 @@
 
 Before training, we need to preprocess the unlabelled training data to generate training pairs.
 
-1. Download the proposed [NAT2021-*train* set](https://vision4robotics.github.io/NAT2021/)
+1. Download the proposed [NAT2021-*train* set](https://vision4robotics.github.io/NAT2021/).
 
-2. Customize the directory of the train set in `lowlight_enhancement.py` and enhance the nighttime sequences
-
-   ```python
-   cd preprocessing/
-   python lowlight_enhancement.py # enhanced sequences will be saved at '/YOUR/PATH/NAT2021/train/data_seq_enhanced/'
-   ```
-
-3. Download the video saliency detection model [here](https://drive.google.com/file/d/1Fuw3oC86AqZhH5F3pko_aqAMhPtQyt6j/view?usp=sharing) and place it at `preprocessing/models/checkpoints/`.
-
-4. Predict salient objects and obtain candidate boxes
-
-   ``` python
-   python inference.py # candidate boxes will be saved at 'coarse_boxes/' as .npy
-   ```
-
-5. Generate pseudo annotations from candidate boxes using dynamic programming
-
-   ``` python
-   python gen_seq_bboxes.py # pseudo box sequences will be saved at 'pseudo_anno/'
-   ```
-
-6. Generate cropped training patches and a JSON file for training
-
-   ``` py
-   python par_crop.py
-   python gen_json.py
-   ```
+2. Follow the preprocessing of [UDAT](https://github.com/vision4robotics/UDAT) to prepare the night dataset.
 
 ### 2. Train
 
