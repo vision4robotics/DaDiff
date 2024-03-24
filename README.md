@@ -8,7 +8,7 @@
 
 **DaDiff** is a Diffusion model-based domain adaptation framework for visual object tracking. This repo contains its Python implementation.
 
-## Testing UDAT
+## Testing DaDiff
 
 ### 1. Preprocessing
 
