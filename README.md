@@ -54,7 +54,7 @@ Take DaDiff-GAT for instance.
     ```
 
 ## Demo
-[![Demo Video](https://github.com/vision4snake/DaDiff/blob/main/img/video_DaDiff.svg)](https://youtu.be/zAAx3bCElsw)
+[![Demo Video](https://i.ytimg.com/vi/zAAx3bCElsw/maxresdefault.jpg)](https://youtu.be/zAAx3bCElsw)
 
 
 ### Acknowledgments
