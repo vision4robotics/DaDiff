@@ -65,4 +65,4 @@ We sincerely thank the contribution of the following repos: [DDIM](https://githu
 
 ### Contact
 
-If you have any questions, please contact Haobo Zuo at [haobozuo@connect.hku.hk](mailto:haobozuo@connect.hku.hk) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
+The official code of DaDiff will continue to be regularly refined and improved to ensure its quality and functionality. If you have any questions, please contact Haobo Zuo at [haobozuo@connect.hku.hk](mailto:haobozuo@connect.hku.hk) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
