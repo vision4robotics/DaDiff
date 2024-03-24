@@ -14,9 +14,11 @@
 
 Before training, we need to preprocess the unlabelled training data to generate training pairs.
 
-1. Download the proposed [NAT2021-*train* set](https://vision4robotics.github.io/NAT2021/).
+1. Download the nighttime train dataset [NAT2021-*train* set](https://vision4robotics.github.io/NAT2021/).
 
-2. Follow the preprocessing of [UDAT](https://github.com/vision4robotics/UDAT) to prepare the night dataset.
+2. Follow the preprocessing of [UDAT](https://github.com/vision4robotics/UDAT) to prepare the nighttime train dataset.
+
+3. Download the proposed [NUT-LR](https://drive.google.com/file/d/1yk7YtLW4iHfbCP_Ni0Yf6ajLsuXpM3YC/view?usp=sharing) for low-resolution object nighttime UAV tracking.
 
 ### 2. Train
 
