@@ -1,6 +1,6 @@
 # DaDiff: Domain-aware Diffusion Model for Nighttime UAV Tracking
 
-[Haobo Zuo](https://scholar.google.com/citations?user=5RhJGKgAAAAJ&hl=zh-CN), [Changhong Fu](https://vision4robotics.github.io/authors/changhong-fu/), [Guangze Zheng](https://zhengguangze.netlify.app/), [Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), and [Guang Chen](https://ispc-group.github.io/). Unsupervised Domain Adaptation for Nighttime Aerial Tracking. In CVPR, pages 1-10, 2022.
+[Haobo Zuo](https://scholar.google.com/citations?user=5RhJGKgAAAAJ&hl=zh-CN), [Changhong Fu](https://scholar.google.com/citations?user=zmbMZ4kAAAAJ&hl=zh-CN), [Guangze Zheng]([https://zhengguangze.netlify.app/](https://scholar.google.com/citations?user=-kcZWRQAAAAJ&hl=zh-CN)), [Liangliang Yao](https://vision4robotics.github.io/authors/liangliang-yao/), [Kunhan Lu](https://scholar.google.com/citations?user=aW__X-8AAAAJ&hl=zh-CN), and [Jia Pan](https://scholar.google.com/citations?hl=zh-CN&user=YYT8-7kAAAAJ). DaDiff: Domain-aware Diffusion Model for Nighttime UAV Tracking.
 
 ![featured](https://github.com/vision4snake/DaDiff/blob/main/img/featured.svg)
 
