@@ -38,7 +38,7 @@ Take DaDiff-GAT for instance.
 
 ### 3. Test
 Take DaDiff-GAT for instance.
-1. For quick test, you can download our trained model for [UDAT-CAR](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) (or [UDAT-BAN](https://drive.google.com/file/d/1nKyzA0ohOmrvSvypM-0cCvGNo93ZvdLp/view?usp=sharing)) and place it at `DaDiff/SiamGAT/snapshot`.
+1. For quick test, you can download our trained model for [DaDiff-GAT](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) (or [DaDiff-BAN](https://drive.google.com/file/d/1nKyzA0ohOmrvSvypM-0cCvGNo93ZvdLp/view?usp=sharing)) and place it at `DaDiff/SiamGAT/snapshot`.
 
 2. Start testing
 
