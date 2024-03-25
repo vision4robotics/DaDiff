@@ -8,6 +8,14 @@
 
 **DaDiff** is a Diffusion model-based domain adaptation framework for visual object tracking. This repo contains its Python implementation.
 
+## Environment
+
+This code has been tested on Ubuntu 18.04, Python 3.8.3, Pytorch 0.7.0/1.6.0, CUDA 10.2. Please install related libraries before running this code:
+
+``` python
+    pip install -r requirements.txt
+   ```
+
 ## Testing DaDiff
 
 ### 1. Preprocessing
@@ -40,7 +48,9 @@ Take DaDiff-GAT for instance.
 Take DaDiff-GAT for instance.
 1. For quick test, you can download our trained model for [DaDiff-GAT](https://drive.google.com/file/d/1DccbQ4nh2rlni8RVykTNzuHXJgSvNE4G/view?usp=sharing) (or [DaDiff-BAN](https://drive.google.com/file/d/1nKyzA0ohOmrvSvypM-0cCvGNo93ZvdLp/view?usp=sharing)) and place it at `DaDiff/SiamGAT/snapshot`.
 
-2. Start testing
+2. Download testing datasets and put them into your own directory. If you want to test the tracker on a new dataset, please refer to the toolkit to set the test dataset.
+
+3. Start testing
 
     ```python
     python tools/test.py --dataset NUT-L
